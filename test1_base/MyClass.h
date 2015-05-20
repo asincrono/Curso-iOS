@@ -10,4 +10,5 @@
 
 @interface MyClass : NSObject
 
+
 @end
