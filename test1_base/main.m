@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
+    @autoreleasepool {// todo el código de nuestro programa debe de estar dentro (recolector de basura).
         // insert code here...
-        NSLog(@"Hello, World!");
+        id a = @"Hello, World!";
+        NSLog ((NSString *)a);
     }
-    return 0;
 }
