@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E82829C21B0C71E5003431F6 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E82829C11B0C71E5003431F6 /* MyClass.m */; };
+		E82829C51B0C792B003431F6 /* Fraccion.m in Sources */ = {isa = PBXBuildFile; fileRef = E82829C41B0C792B003431F6 /* Fraccion.m */; };
+		E82829C91B0C9542003431F6 /* Calculadora.m in Sources */ = {isa = PBXBuildFile; fileRef = E82829C81B0C9542003431F6 /* Calculadora.m */; };
+		E85AD3C41B0DD2C8009D276F /* ClassWithProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E85AD3C31B0DD2C8009D276F /* ClassWithProperties.m */; };
+		E85AD3C71B0DDD0D009D276F /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = E85AD3C61B0DDD0D009D276F /* Computer.m */; };
+		E85AD3CB1B0DDD28009D276F /* Processor.m in Sources */ = {isa = PBXBuildFile; fileRef = E85AD3CA1B0DDD28009D276F /* Processor.m */; };
+		E85AD3CE1B0DDD38009D276F /* Memory.m in Sources */ = {isa = PBXBuildFile; fileRef = E85AD3CD1B0DDD38009D276F /* Memory.m */; };
+		E85AD3D11B0DDD46009D276F /* Graphics.m in Sources */ = {isa = PBXBuildFile; fileRef = E85AD3D01B0DDD46009D276F /* Graphics.m */; };
+		E85AD3D41B0DF488009D276F /* Laptop.m in Sources */ = {isa = PBXBuildFile; fileRef = E85AD3D31B0DF488009D276F /* Laptop.m */; };
+		E85AD3D71B0DF4E2009D276F /* Battery.m in Sources */ = {isa = PBXBuildFile; fileRef = E85AD3D61B0DF4E2009D276F /* Battery.m */; };
 		E88571DA1B0B33D400CAF356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E88571D91B0B33D400CAF356 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +33,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E82829C01B0C71E5003431F6 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		E82829C11B0C71E5003431F6 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		E82829C31B0C792B003431F6 /* Fraccion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraccion.h; path = classes/Fraccion.h; sourceTree = "<group>"; };
+		E82829C41B0C792B003431F6 /* Fraccion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraccion.m; path = classes/Fraccion.m; sourceTree = "<group>"; };
+		E82829C71B0C9542003431F6 /* Calculadora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calculadora.h; path = classes/Calculadora.h; sourceTree = "<group>"; };
+		E82829C81B0C9542003431F6 /* Calculadora.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calculadora.m; path = classes/Calculadora.m; sourceTree = "<group>"; };
+		E85AD3C21B0DD2C8009D276F /* ClassWithProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassWithProperties.h; path = classes/ClassWithProperties.h; sourceTree = "<group>"; };
+		E85AD3C31B0DD2C8009D276F /* ClassWithProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClassWithProperties.m; path = classes/ClassWithProperties.m; sourceTree = "<group>"; };
+		E85AD3C51B0DDD0D009D276F /* Computer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Computer.h; sourceTree = "<group>"; };
+		E85AD3C61B0DDD0D009D276F /* Computer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Computer.m; sourceTree = "<group>"; };
+		E85AD3C91B0DDD28009D276F /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		E85AD3CA1B0DDD28009D276F /* Processor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Processor.m; sourceTree = "<group>"; };
+		E85AD3CC1B0DDD38009D276F /* Memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memory.h; sourceTree = "<group>"; };
+		E85AD3CD1B0DDD38009D276F /* Memory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memory.m; sourceTree = "<group>"; };
+		E85AD3CF1B0DDD46009D276F /* Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphics.h; sourceTree = "<group>"; };
+		E85AD3D01B0DDD46009D276F /* Graphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graphics.m; sourceTree = "<group>"; };
+		E85AD3D21B0DF488009D276F /* Laptop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Laptop.h; path = classes/Laptop.h; sourceTree = "<group>"; };
+		E85AD3D31B0DF488009D276F /* Laptop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Laptop.m; path = classes/Laptop.m; sourceTree = "<group>"; };
+		E85AD3D51B0DF4E2009D276F /* Battery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Battery.h; path = classes/Battery.h; sourceTree = "<group>"; };
+		E85AD3D61B0DF4E2009D276F /* Battery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Battery.m; path = classes/Battery.m; sourceTree = "<group>"; };
 		E88571D61B0B33D400CAF356 /* test1_base */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test1_base; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88571D91B0B33D400CAF356 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +68,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E82829C61B0C7972003431F6 /* clases */ = {
+			isa = PBXGroup;
+			children = (
+				E82829C71B0C9542003431F6 /* Calculadora.h */,
+				E82829C81B0C9542003431F6 /* Calculadora.m */,
+				E82829C31B0C792B003431F6 /* Fraccion.h */,
+				E82829C41B0C792B003431F6 /* Fraccion.m */,
+				E85AD3C21B0DD2C8009D276F /* ClassWithProperties.h */,
+				E85AD3C81B0DDD14009D276F /* Computer */,
+				E85AD3C31B0DD2C8009D276F /* ClassWithProperties.m */,
+			);
+			name = clases;
+			sourceTree = "<group>";
+		};
+		E85AD3C81B0DDD14009D276F /* Computer */ = {
+			isa = PBXGroup;
+			children = (
+				E85AD3C51B0DDD0D009D276F /* Computer.h */,
+				E85AD3C61B0DDD0D009D276F /* Computer.m */,
+				E85AD3C91B0DDD28009D276F /* Processor.h */,
+				E85AD3CA1B0DDD28009D276F /* Processor.m */,
+				E85AD3CC1B0DDD38009D276F /* Memory.h */,
+				E85AD3CD1B0DDD38009D276F /* Memory.m */,
+				E85AD3CF1B0DDD46009D276F /* Graphics.h */,
+				E85AD3D01B0DDD46009D276F /* Graphics.m */,
+				E85AD3D21B0DF488009D276F /* Laptop.h */,
+				E85AD3D31B0DF488009D276F /* Laptop.m */,
+				E85AD3D51B0DF4E2009D276F /* Battery.h */,
+				E85AD3D61B0DF4E2009D276F /* Battery.m */,
+			);
+			name = Computer;
+			sourceTree = "<group>";
+		};
 		E88571CD1B0B33D400CAF356 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				E88571D91B0B33D400CAF356 /* main.m */,
+				E82829C01B0C71E5003431F6 /* MyClass.h */,
+				E82829C11B0C71E5003431F6 /* MyClass.m */,
+				E82829C61B0C7972003431F6 /* clases */,
 			);
 			path = test1_base;
 			sourceTree = "<group>";
@@ -118,7 +184,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85AD3C71B0DDD0D009D276F /* Computer.m in Sources */,
+				E85AD3D11B0DDD46009D276F /* Graphics.m in Sources */,
+				E85AD3D71B0DF4E2009D276F /* Battery.m in Sources */,
+				E82829C51B0C792B003431F6 /* Fraccion.m in Sources */,
+				E85AD3D41B0DF488009D276F /* Laptop.m in Sources */,
+				E85AD3CB1B0DDD28009D276F /* Processor.m in Sources */,
+				E82829C21B0C71E5003431F6 /* MyClass.m in Sources */,
+				E85AD3CE1B0DDD38009D276F /* Memory.m in Sources */,
+				E85AD3C41B0DD2C8009D276F /* ClassWithProperties.m in Sources */,
 				E88571DA1B0B33D400CAF356 /* main.m in Sources */,
+				E82829C91B0C9542003431F6 /* Calculadora.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +308,7 @@
 				E88571DF1B0B33D400CAF356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
